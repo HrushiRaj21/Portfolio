@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="boot.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script type="text/javascript">
+      function myFunctionNew(){
+        // document.getElementById('nebutton').innerHTML="NewButton"
+        document.getElementsByClassName('description').innerHTML="NewButton"
+        // document.write("Changed")
+      }
+    </script>
+ </head>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+    <div class="container">
+      <a class="navbar-brand logo-text" href="#">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse show" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contact.html">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" id="nebutton"  href="writing.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="services.html">Services</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="section">
+    <div class="section__container">
+        <div class="Contact">
+            <p class="subtitle">HELLO</p>
+            <h1 class="title">
+                I'm<span><br>Hrushitha M R<br></span>Student
+            </h1>
+            <p class="description" id="nebutton">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, voluptatem deserunt fugiat, dolorum beatae magni, reiciendis impedit id natus voluptas ad dolor vero quas incidunt sequi amet numquam cupiditate  ipsum dolor sit amet consectetur adipisicing elit. At dolores officiis error debitis voluptate nobis neque sint, aut maiores officia, quidem doloremque. Rerum quae delectus fugit dignissimos deleniti distinctio. Nesciunt.</p>
+            <div class="action__btns">
+                <button class="hire__me" id="myFunctionNew()">Hire me</button>
+                <button class="learn">Learn more</button>
+
+            </div>
+        </div>
+        <div class="image">
+          <img src="photo.jpg" alt="profile">
+      </div>
+  </div>
+  </section>
+  <section>
+    <div class="c">
+      <h1>about me</h1>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <img src="data.jpeg" alt="none">
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <h2>Hrushitha Raj</h2>
+          <p class="para">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet pariatur sed, fugiat a quaerat vero, voluptatibus officia excepturi voluptates eos voluptatum molestias esse qui unde provident incidunt explicabo accusantium perspiciatis.
+              Ad repellat totam ut nesciunt numquam quaerat amet iure, molestiae tempora voluptatibus voluptas autem aut excepturi modi eligendi quia quisquam esse? Accusantium libero molestiae iure quod sapiente ipsum consequatur voluptates.
+              Quod, libero. Iure iste eos ipsum eligendi aut nihil laborum eaque, enim quo, aliquid odit error dignissimos ducimus. Quod possimus, quaerat facilis quidem exercitationem molestiae quisquam quis dolor! Quaerat, ab., ipsum dolor sit amet consectetur adipisicing elit. Et animi praesentium suscipit velit quod modi blanditiis voluptatum inventore, dolorum molestiae provident veritatis, eaque officiis ut debitis, accusantium dicta! Quibusdam, ipsa!
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <section id="contact">
+    <h1 class="headings">CONTACT</h1>
+    <hr class="line">
+    <label for="exampleFormControlInput1" class="form-label"><h4>Name</h4></label>
+    <input class="form-control form-control-lg" type="text" placeholder="Firstname" aria-label=".form-control-lg example">
+    <br>
+    <input class="form-control form-control-lg" type="text" placeholder="Lastname" aria-label=".form-control-lg example">
+    <label for="exampleFormControlInput1" class="form-label"><h4>Phone Number</h4></label>
+    <input class="form-control" type="text" placeholder="number" aria-label="default input example">
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label"><h4>Email address</h4></label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label"><h4>Address</h4></Address></label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="address"></textarea>
+    </div>
+    <div class="button">
+    <button type="button" class="btn btn-info"><h4>Submit</h4></button>
+    </div>
+    <br>
+  </section>
+    <section id="services">
+      <h1 class="headings">Services</h1>
+    <div class="row mt-5">
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card" style="width: 20em;">
+          <img src="ui.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">UI/UX <br>Designs</h3><hr>
+            <p class="card-text">UX designers focus their work on the experience a user has with a product. The goal is to make products that are functional, accessible, and enjoyable to use. While the term UX often applies to digital products, it can also be applied to non-digital products and services (like a coffee pot or a transportation system).</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card" style="width: 20rem;">
+          <img src="de.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Digital <br>Marketing</h3><hr>
+            <p class="card-text">Digital marketing is the component of marketing that uses the Internet and online-based digital technologies such as desktop computers, mobile phones, and other digital media and platforms to promote products and services.Databases allowed companies to track customers' information more effectively, transforming the relationship between buyer and seller.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card" style="width: 20rem;">
+          <img src="web.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Web <br>Development</h3><hr>
+            <p class="card-text">Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network).[1] Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services.Since the commercialization of the Web, the industry has boomed and has become one of the most used technologies ever.<p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    </section>
+  <footer>
+    <div class="footerContainer">
+       <div class="Socialicons">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+      <div class="footerNav">
+        <ul> 
+          <li><a href="boot.html">Home</a></li>
+          <li><a href="writing.html">Contact</a></li>
+          <li><a href="services.html">Services</a></li>
+        </ul>
+      </div>
+    <div class="footerBottom">
+      <p>Copyright &copy;2023;Designed by <span class="Designer">Hrushitha Raj</span></p>
+    </div>
+    </div>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  </body>
+</html>
